@@ -185,7 +185,7 @@ nav .nav-list {
 
 /* Hero.js */
 .hero {
-  height: 86vh;
+  height: 100vh;
   padding: 0 40px;
   display: flex;
   flex-direction: row;
