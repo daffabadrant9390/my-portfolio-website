@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import HomePage from "./pages/HomePage.js";
+import Navbar from "./components/Navbar.js";
+import "./App.css";
+import "./Responsive.css";
+import Footer from "./components/Footer.js";
+import useScrollSmooth from "./hooks/useScrollSmooth.js";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function App() {
+  useScrollSmooth();
+  AOS.init({
+    duration: 1000,
+  });
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header>
+        <Navbar />
       </header>
+      <main>
+        <HomePage />
+      </main>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }

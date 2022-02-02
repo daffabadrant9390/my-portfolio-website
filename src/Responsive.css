@@ -1,0 +1,107 @@
+@media (max-width: 1000px) {
+  .skills {
+    flex-direction: column;
+    text-align: center;
+    gap: 0px;
+  }
+
+  .skills .heading {
+    margin-bottom: 40px;
+  }
+
+  .skills-list {
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    /* grid-template-columns: repeat(4, 140px); */
+    justify-content: center;
+  }
+}
+
+@media (max-width: 870px) {
+  nav {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 900px) {
+  .hero .hero-details h1 {
+    font-size: 32px;
+  }
+
+  .about {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about .about-img {
+    margin-bottom: 20px;
+  }
+
+  .about-details .btn-trigger {
+    margin-top: 20px;
+  }
+
+  .about .about-img img {
+    width: 340px;
+  }
+}
+
+@media (max-width: 800px) {
+  .hamburger-menu {
+    display: block;
+  }
+
+  nav .nav-list {
+    display: none;
+  }
+
+  .hero {
+    flex-direction: column;
+    padding: 100px 0;
+    height: auto;
+  }
+
+  .hero .hero-details {
+    order: 1;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  /* .btn {
+    margin: 20px auto;
+  } */
+
+  .interest-card h3 {
+    font-size: 18px;
+    margin-bottom: 4px;
+  }
+
+  .interest-card img {
+    width: 80px;
+    margin-bottom: 14px;
+  }
+
+  .interest-card p {
+    font-size: 14px;
+    line-height: 1.5em;
+  }
+}
+
+@media (max-width: 670px) {
+  .interest-card {
+    width: 100%;
+  }
+  footer a svg {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+@media (max-width: 500px) {
+  .about-details .about-details-heading h1 {
+    font-size: 24px;
+  }
+
+  .about-details .about-details-heading p {
+    font-size: 14px;
+  }
+}
