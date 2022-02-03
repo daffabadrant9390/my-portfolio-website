@@ -18,17 +18,17 @@ const Navbar = () => {
         <span></span>
       </div>
 
-      <ul className={menuOpen ? "nav-list menu-block" : "nav-list"}>
-        <li className="list-item">
+      <ul className={menuOpen ? "nav-list active" : "nav-list"}>
+        <li className="list-item" onClick={() => setMenuOpen(false)}>
           <a href="#about-section">About Me</a>
         </li>
-        <li className="list-item">
+        <li className="list-item" onClick={() => setMenuOpen(false)}>
           <a href="#interest-section">Interests</a>
         </li>
-        <li className="list-item">
+        <li className="list-item" onClick={() => setMenuOpen(false)}>
           <a href="#projects-section">Projects</a>
         </li>
-        <li className="list-item">
+        <li className="list-item" onClick={() => setMenuOpen(false)}>
           <a href="#skills-section">Skills</a>
         </li>
       </ul>

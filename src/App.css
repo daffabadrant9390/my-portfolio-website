@@ -86,6 +86,7 @@ nav {
   padding: 0 40px;
   background-color: var(--whiteColor);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
 
   display: flex;
   flex-direction: row;
@@ -171,6 +172,7 @@ nav .nav-list {
 .hamburger-menu.open span:nth-child(1) {
   top: 9px;
   transform: rotate(135deg);
+  background-color: var(--redColor);
 }
 
 .hamburger-menu.open span:nth-child(2) {
@@ -181,6 +183,7 @@ nav .nav-list {
 .hamburger-menu.open span:nth-child(3) {
   top: 8px;
   transform: rotate(-135deg);
+  background-color: var(--redColor);
 }
 
 /* Hero.js */
@@ -265,7 +268,6 @@ nav .nav-list {
 
 .btn-trigger {
   display: flex;
-  justify-content: center;
   gap: 14px;
 }
 
@@ -333,6 +335,7 @@ nav .nav-list {
 .projects-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  justify-content: center;
   gap: 20px;
 }
 
