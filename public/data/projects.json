@@ -19,7 +19,7 @@
             "title": "ToDo List Website",
             "imgUrl": "./images/img-project-3.jpg",
             "githubUrl": "https://github.com/daffabadrant9390/TODO-App-using-React-JS-and-JSON-Server",
-            "demoUrl": "https://travel-lah-travelling.netlify.app/"
+            "demoUrl": "#"
         },
         {
             "id": 4,
@@ -30,17 +30,17 @@
         },
         {
             "id": 5,
-            "title": "Job Vacancy",
+            "title": "Student List Database",
             "imgUrl": "./images/img-project-5.jpg",
-            "githubUrl": "https://github.com/daffabadrant9390/Travelling-App-Travel-Lah-using-React-JS-and-Tailwindcss",
-            "demoUrl": "https://travel-lah-travelling.netlify.app/"
+            "githubUrl": "https://github.com/daffabadrant9390/react-student-list",
+            "demoUrl": "https://student-list-react-js-new.netlify.app/"
         },
         {
             "id": 6,
             "title": "Polling Website",
             "imgUrl": "./images/img-project-6.jpg",
             "githubUrl": "https://github.com/daffabadrant9390/Polling-App-Svelte",
-            "demoUrl": "https://travel-lah-travelling.netlify.app/"
+            "demoUrl": "https://random-polling-app-svelte.netlify.app/"
         }
     ]
 }
