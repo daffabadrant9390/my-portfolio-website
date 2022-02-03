@@ -1,3 +1,19 @@
+@media (max-width: 1200px) {
+  .btn {
+    width: 120px;
+    height: 40px;
+  }
+
+  .btn-trigger svg {
+    margin-right: 4px;
+  }
+
+  .project-card .btn-trigger svg {
+    width: 20px;
+    height: 20px;
+  }
+}
+
 @media (max-width: 1000px) {
   .skills {
     flex-direction: column;
@@ -77,7 +93,7 @@
     flex-direction: column;
     width: 100%;
     height: 200px;
-    top: 100px;
+    top: 64px;
     padding: 20px;
     left: -100%;
     position: absolute;
@@ -97,6 +113,10 @@
 }
 
 @media (max-width: 800px) {
+  .project-card {
+    width: 100%;
+    height: auto;
+  }
   .interest-card h3 {
     font-size: 18px;
     margin-bottom: 4px;
@@ -131,11 +151,11 @@
 
 @media (max-width: 500px) {
   nav {
-    height: 6vh;
+    height: 10vh;
   }
 
   nav .nav-list {
-    top: 65px;
+    top: 63px;
   }
 
   .about-details .about-details-heading h1 {

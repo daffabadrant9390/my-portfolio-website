@@ -333,13 +333,18 @@ nav .nav-list {
 }
 
 .projects-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  /* display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
   justify-content: center;
   gap: 20px;
 }
 
 .project-card {
+  width: 320px;
+  height: 400px;
   padding: 40px;
   border-radius: 6px;
   background-color: var(--whiteColor);
