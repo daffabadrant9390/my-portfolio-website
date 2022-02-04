@@ -2,6 +2,7 @@ import HomePage from "./pages/HomePage.js";
 import Navbar from "./components/Navbar.js";
 import "./App.css";
 import "./Responsive.css";
+import "./Animation.css";
 import Footer from "./components/Footer.js";
 import useScrollSmooth from "./hooks/useScrollSmooth.js";
 import AOS from "aos";
