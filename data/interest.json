@@ -1,0 +1,27 @@
+{
+    "interest": [
+        {
+            "id": 1,
+            "imageUrl": "./images/icon-website-creation.png",
+            "title": "Website Creation",
+            "description": "Design and Develop the websites"
+        },
+        {
+            "id": 2,
+            "imageUrl": "./images/icon-responsive-design.png",
+            "title": "Responsive Design",
+            "description": "Create responsive websites that fits both desktop and mobile devices"
+        }, {
+            "id": 3,
+            "imageUrl": "./images/icon-ui-ux-design.png",
+            "title": "UI / UX Design",
+            "description": "Do research and create wireframe and prototype design before development"
+        },
+        {
+            "id": 4,
+            "imageUrl": "./images/icon-semantic-code.png",
+            "title": "Semantic Code",
+            "description": "Use semantic element to make your websites appears better and each element has their own meaning"
+        }
+    ]
+}

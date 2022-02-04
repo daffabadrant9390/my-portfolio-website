@@ -1,0 +1,44 @@
+{
+    "skills": [
+        {
+            "id": 1,
+            "title": "HTML-Badge",
+            "imgUrl": "./images/icon-html.png"
+        },
+        {
+            "id": 2,
+            "title": "CSS-Badge",
+            "imgUrl": "./images/icon-css.png"
+        },
+        {
+            "id": 3,
+            "title": "Javascript-Badge",
+            "imgUrl": "./images/icon-js.png"
+        },
+        {
+            "id": 4,
+            "title": "React-Badge",
+            "imgUrl": "./images/icon-react.png"
+        },
+        {
+            "id": 5,
+            "title": "Svelte-Badge",
+            "imgUrl": "./images/icon-svelte.png"
+        },
+        {
+            "id": 6,
+            "title": "Bootstrap-Badge",
+            "imgUrl":"./images/icon-bootstrap.png"
+        },
+        {
+            "id": 7,
+            "title": "Tailwind-Badge",
+            "imgUrl":"./images/icon-tailwind.png"
+        }, 
+        {
+            "id": 8,
+            "title": "SCSS-Badge",
+            "imgUrl":"./images/icon-sass.png"
+        }
+    ]
+}

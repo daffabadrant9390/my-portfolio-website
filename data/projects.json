@@ -1,0 +1,46 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "title": "OMDb Movies Databases",
+            "imgUrl": "./images/img-project-1.jpg",
+            "githubUrl": "https://github.com/daffabadrant9390/Movies-Databases-from-omdb-API-using-React-JS",
+            "demoUrl": "https://movies-databases-omdbapi.netlify.app/"
+        },
+        {
+            "id": 2,
+            "title": "Travel.Lah Travel Website",
+            "imgUrl": "./images/img-project-2.jpg",
+            "githubUrl": "https://github.com/daffabadrant9390/Travelling-App-Travel-Lah-using-React-JS-and-Tailwindcss",
+            "demoUrl": "https://travel-lah-travelling.netlify.app/"
+        },
+        {
+            "id": 3,
+            "title": "ToDo List Website",
+            "imgUrl": "./images/img-project-3.jpg",
+            "githubUrl": "https://github.com/daffabadrant9390/TODO-App-using-React-JS-and-JSON-Server",
+            "demoUrl": "#"
+        },
+        {
+            "id": 4,
+            "title": "LuxSpace Furniture Store",
+            "imgUrl": "./images/img-project-4.jpg",
+            "githubUrl": "https://github.com/daffabadrant9390/LuxSpace-Webbapp",
+            "demoUrl": "https://luxspace-webapp.netlify.app/"
+        },
+        {
+            "id": 5,
+            "title": "Student List Database",
+            "imgUrl": "./images/img-project-5.jpg",
+            "githubUrl": "https://github.com/daffabadrant9390/react-student-list",
+            "demoUrl": "https://student-list-react-js-new.netlify.app/"
+        },
+        {
+            "id": 6,
+            "title": "Polling Website",
+            "imgUrl": "./images/img-project-6.jpg",
+            "githubUrl": "https://github.com/daffabadrant9390/Polling-App-Svelte",
+            "demoUrl": "https://random-polling-app-svelte.netlify.app/"
+        }
+    ]
+}
