@@ -1,3 +1,4 @@
+import "../Animation.css";
 const Hero = () => {
   return (
     <section className="hero fade-up">
