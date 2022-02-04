@@ -5,6 +5,12 @@
   animation: fade-up-anim 1s ease-in-out forwards;
 }
 
+.fade-in {
+  position: relative;
+  opacity: 0;
+  animation: fade-in-anim 1s ease-in-out 1s forwards;
+}
+
 @keyframes fade-up-anim {
   from {
     opacity: 0;
@@ -13,5 +19,14 @@
   to {
     opacity: 1;
     top: 0px;
+  }
+}
+
+@keyframes fade-in-anim {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }

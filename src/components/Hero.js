@@ -1,8 +1,8 @@
 import "../Animation.css";
 const Hero = () => {
   return (
-    <section className="hero fade-up">
-      <div className="hero-details">
+    <section className="hero">
+      <div className="hero-details fade-up">
         <h1>Hi, I'm</h1>
         <h1>M. Daffa Badran Thoriq</h1>
         <h3>Front End Developer | UI / UX Designer</h3>
@@ -10,7 +10,7 @@ const Hero = () => {
           Get Started
         </a>
       </div>
-      <div className="hero-img">
+      <div className="hero-img fade-in">
         <img src="./images/hero-img-1.png" alt="img-for-hero-section" />
       </div>
     </section>
