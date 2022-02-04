@@ -1,0 +1,17 @@
+.fade-up {
+  position: relative;
+  opacity: 0;
+  top: 50px;
+  animation: fade-up-anim 1s ease-in-out forwards;
+}
+
+@keyframes fade-up-anim {
+  from {
+    opacity: 0;
+    top: 50px;
+  }
+  to {
+    opacity: 1;
+    top: 0px;
+  }
+}

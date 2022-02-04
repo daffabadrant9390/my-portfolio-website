@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <section className="hero">
+    <section className="hero fade-up">
       <div className="hero-details">
         <h1>Hi, I'm</h1>
         <h1>M. Daffa Badran Thoriq</h1>
