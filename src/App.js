@@ -11,7 +11,7 @@ import "aos/dist/aos.css";
 function App() {
   useScrollSmooth();
   AOS.init({
-    duration: 1000,
+    duration: 2000,
   });
 
   return (
