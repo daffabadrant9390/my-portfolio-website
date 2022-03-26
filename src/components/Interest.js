@@ -11,7 +11,7 @@ const Interest = (props) => {
         <h1>Interests</h1>
         <p>Things that i am doing</p>
       </div>
-      <div className="interests-list">
+      <div className="interests-list" data-aos="fade-up">
         {interests &&
           interests.map((interest) => {
             return (

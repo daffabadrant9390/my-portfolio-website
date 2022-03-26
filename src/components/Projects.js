@@ -12,7 +12,7 @@ const Projects = (props) => {
       <div className="projects-list">
         {projectData.map((project) => {
           return (
-            <div className="project-card" key={project.id}>
+            <div className="project-card" key={project.id} data-aos="fade-up">
               <ProjectCard project={project} />
             </div>
           );
