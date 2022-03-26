@@ -9,7 +9,7 @@
         },
         {
             "id": 2,
-            "title": "React Js: Travel.Lah Travel Website",
+            "title": "React Js: Travel.Lah Travelling Website 2021",
             "imgUrl": "./images/img-project-2.jpg",
             "githubUrl": "https://github.com/daffabadrant9390/Travelling-App-Travel-Lah-using-React-JS-and-Tailwindcss",
             "demoUrl": "https://travel-lah-travelling.netlify.app/"
@@ -30,7 +30,7 @@
         },
         {
             "id": 5,
-            "title": "React Js: Student List Database",
+            "title": "React Js: Travel.Lah Travelling Website 2022",
             "imgUrl": "./images/img-project-5.jpg",
             "githubUrl": "https://github.com/daffabadrant9390/react-student-list",
             "demoUrl": "https://student-list-react-js-new.netlify.app/"
